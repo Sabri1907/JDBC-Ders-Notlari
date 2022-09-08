@@ -11,7 +11,7 @@ public class Main {
         // Connection fonksiyonunu database'den cagir.
         Connection con=db.connect_to_db("techproed","postgres","Sa.3814641");
 
-        //Yeni table olusturma methodunu cagir
+        //Yeni table olusturma methodunu cagirma
         db.createTable(con,"employees");
 
 
